@@ -92,12 +92,12 @@ stats_html = """
 """
 
 # Read the generated HTML file
-with open("breweries_map.html", "r") as f:
+with open("breweries_mapV3.html", "r") as f:
     map_html = f.read()
 
 # Combine the map HTML and stats HTML
 final_html = map_html.replace('<body>', f'<body>{stats_html}')
 
 # Save the final HTML to a file
-with open("breweries_map.html", "w") as f:
+with open("breweries_mapV3.html", "w") as f:
     f.write(final_html)
