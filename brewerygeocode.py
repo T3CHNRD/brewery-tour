@@ -2,7 +2,7 @@ import googlemaps
 import time
 
 # Initialize the Google Maps client with your API key
-gmaps = googlemaps.Client(key='AIzaSyBYuvLGrIIxnY20fUSAgXJqJo2k6UZFWbg')
+gmaps = googlemaps.Client
 
 # Full list of breweries
 breweries = [
