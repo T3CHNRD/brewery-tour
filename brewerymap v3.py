@@ -33,7 +33,7 @@ breweries_by_tour = {
     "2024 Local Tour": [
         # Add the breweries for the 2024 Local Tour here
     ],
-    "Random": [
+    "On Going Random Tour": [
         # Add the breweries for the Random tour here
     ]
 }
@@ -54,7 +54,8 @@ tour_colors = {
     "2022 New England Tour": "orange",
     "2023 Michigan West Coast Tour": "blue",
     "2024 Local Tour": "green",
-    "Random": "purple"
+    "On Going Random Tour": "purple"
+    "Closed": "red"
 }
 
 # Create a map centered around a central point in the US
