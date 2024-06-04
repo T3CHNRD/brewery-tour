@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beer Tour</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add favicon -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,21 +13,24 @@
             background-color: #333;
             padding: 10px 0;
         }
+        nav {
+            text-align: center; /* Center navigation items */
+        }
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
+            display: inline-block; /* Display navigation items inline */
         }
         nav ul li {
+            display: inline; /* Display list items inline */
             margin: 0 15px;
         }
         nav ul li a {
             color: white;
             text-decoration: none;
             padding: 10px 20px;
-            display: block;
+            display: inline-block;
         }
         nav ul li a:hover {
             background-color: #555;
@@ -38,7 +42,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="breweries_mapV3.html" title="beer map">beer maps</a></li>
+                <li><a href="breweries_mapV2.html" title="View Beer Maps">Beer Maps</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
