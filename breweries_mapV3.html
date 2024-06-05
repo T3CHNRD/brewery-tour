@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e8eff927453c4b68288c3972a1de352 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4e8eff927453c4b68288c3972a1de352" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4e8eff927453c4b68288c3972a1de352 = L.map(
+                "map_4e8eff927453c4b68288c3972a1de352",
+                {
+                    center: [43.0, -85.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_31d1c180a6f4b0cc3220525d7029f3cd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_31d1c180a6f4b0cc3220525d7029f3cd.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var feature_group_6e92e248075572847f4497f8b29d8d9d = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_7bb11496a5e09416d5641768caa2a7e1 = L.marker(
+                [43.6793, -70.2941],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_81e8128f5be3099b541a4a67dde60885 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7bb11496a5e09416d5641768caa2a7e1.setIcon(icon_81e8128f5be3099b541a4a67dde60885);
+        
+    
+        var popup_930d5f1c0d63e8c85bdc93dc23a0b51b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7370beb1a43ee94227cd5f2f8b555e5 = $(`<div id="html_b7370beb1a43ee94227cd5f2f8b555e5" style="width: 100.0%; height: 100.0%;">Allagash</div>`)[0];
+                popup_930d5f1c0d63e8c85bdc93dc23a0b51b.setContent(html_b7370beb1a43ee94227cd5f2f8b555e5);
+            
+        
+
+        marker_7bb11496a5e09416d5641768caa2a7e1.bindPopup(popup_930d5f1c0d63e8c85bdc93dc23a0b51b)
+        ;
+
+        
+    
+    
+            var marker_179c8b41172768032f299c766037890e = L.marker(
+                [43.6532, -70.2596],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_1463fa648d4ac9a11852887c98e1c282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_179c8b41172768032f299c766037890e.setIcon(icon_1463fa648d4ac9a11852887c98e1c282);
+        
+    
+        var popup_5851a256c69b33dff56d71ba0aca2368 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_476f50ea88002a2a51034411aeca2bd8 = $(`<div id="html_476f50ea88002a2a51034411aeca2bd8" style="width: 100.0%; height: 100.0%;">Austin Street</div>`)[0];
+                popup_5851a256c69b33dff56d71ba0aca2368.setContent(html_476f50ea88002a2a51034411aeca2bd8);
+            
+        
+
+        marker_179c8b41172768032f299c766037890e.bindPopup(popup_5851a256c69b33dff56d71ba0aca2368)
+        ;
+
+        
+    
+    
+            var marker_2d7c6ff3deb78f4798a3ff12cc77afdc = L.marker(
+                [43.6615, -70.278],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_fbadcceef55cd8a785fd31bccaede03a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2d7c6ff3deb78f4798a3ff12cc77afdc.setIcon(icon_fbadcceef55cd8a785fd31bccaede03a);
+        
+    
+        var popup_b63225dd5eeddfb4b8d596f26ac521c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d390dab576a64668bb360169e4399f2a = $(`<div id="html_d390dab576a64668bb360169e4399f2a" style="width: 100.0%; height: 100.0%;">Battery Steele</div>`)[0];
+                popup_b63225dd5eeddfb4b8d596f26ac521c8.setContent(html_d390dab576a64668bb360169e4399f2a);
+            
+        
+
+        marker_2d7c6ff3deb78f4798a3ff12cc77afdc.bindPopup(popup_b63225dd5eeddfb4b8d596f26ac521c8)
+        ;
+
+        
+    
+    
+            var marker_f86193e3989a6dca836fdc1f33f2372f = L.marker(
+                [43.65147289999999, -70.29046040000001],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_9df0536b5fff98e0d597705fb8fa63a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f86193e3989a6dca836fdc1f33f2372f.setIcon(icon_9df0536b5fff98e0d597705fb8fa63a0);
+        
+    
+        var popup_53ceb93afcc534f2beca7edb719ae38f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a041d47972083ffb135e9dddfc4c62a7 = $(`<div id="html_a041d47972083ffb135e9dddfc4c62a7" style="width: 100.0%; height: 100.0%;">Bissel Brothers</div>`)[0];
+                popup_53ceb93afcc534f2beca7edb719ae38f.setContent(html_a041d47972083ffb135e9dddfc4c62a7);
+            
+        
+
+        marker_f86193e3989a6dca836fdc1f33f2372f.bindPopup(popup_53ceb93afcc534f2beca7edb719ae38f)
+        ;
+
+        
+    
+    
+            var marker_e7029e172701bb8ceff996802ee3bb13 = L.marker(
+                [41.49270500000001, -81.69802399999999],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_bd774c97415a6f786208635cb4450bc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e7029e172701bb8ceff996802ee3bb13.setIcon(icon_bd774c97415a6f786208635cb4450bc9);
+        
+    
+        var popup_2d1e655347826bd276e85bcc8b43a408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c554a1f31ee5dedfc0854aafee3d40e6 = $(`<div id="html_c554a1f31ee5dedfc0854aafee3d40e6" style="width: 100.0%; height: 100.0%;">Brew Dog</div>`)[0];
+                popup_2d1e655347826bd276e85bcc8b43a408.setContent(html_c554a1f31ee5dedfc0854aafee3d40e6);
+            
+        
+
+        marker_e7029e172701bb8ceff996802ee3bb13.bindPopup(popup_2d1e655347826bd276e85bcc8b43a408)
+        ;
+
+        
+    
+    
+            var marker_2ea09614a9a5a3f1f76900116583ce0f = L.marker(
+                [43.7026293, -70.31912190000001],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_207dcb2889084fdca78b4734f88d5a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2ea09614a9a5a3f1f76900116583ce0f.setIcon(icon_207dcb2889084fdca78b4734f88d5a30);
+        
+    
+        var popup_5e5ea962dabe6661829c37a75275fe65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9c15e83b10bcf81f8a15a2bdea5579e = $(`<div id="html_b9c15e83b10bcf81f8a15a2bdea5579e" style="width: 100.0%; height: 100.0%;">Definitive</div>`)[0];
+                popup_5e5ea962dabe6661829c37a75275fe65.setContent(html_b9c15e83b10bcf81f8a15a2bdea5579e);
+            
+        
+
+        marker_2ea09614a9a5a3f1f76900116583ce0f.bindPopup(popup_5e5ea962dabe6661829c37a75275fe65)
+        ;
+
+        
+    
+    
+            var marker_d4d7694f9d72f2224136bdfa503d1152 = L.marker(
+                [42.111482, -80.1128909],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_c5722457cc3470268515aa8bde924396 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d4d7694f9d72f2224136bdfa503d1152.setIcon(icon_c5722457cc3470268515aa8bde924396);
+        
+    
+        var popup_c034a1515698ae7fdd91c43c948148db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fd07d5f6a1b0209d44e852603c8a54f = $(`<div id="html_1fd07d5f6a1b0209d44e852603c8a54f" style="width: 100.0%; height: 100.0%;">Erie Brewing Company</div>`)[0];
+                popup_c034a1515698ae7fdd91c43c948148db.setContent(html_1fd07d5f6a1b0209d44e852603c8a54f);
+            
+        
+
+        marker_d4d7694f9d72f2224136bdfa503d1152.bindPopup(popup_c034a1515698ae7fdd91c43c948148db)
+        ;
+
+        
+    
+    
+            var marker_9f4864103d7d6c4796ce555092935722 = L.marker(
+                [43.1945312, -71.5312096],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_fd46f803722b3d9d8a5bcf285c461821 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9f4864103d7d6c4796ce555092935722.setIcon(icon_fd46f803722b3d9d8a5bcf285c461821);
+        
+    
+        var popup_1caaab36c3a46d2f00bbeddb16462636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ea7470a518d2b718a7da050f3e38941 = $(`<div id="html_6ea7470a518d2b718a7da050f3e38941" style="width: 100.0%; height: 100.0%;">Feathered Friend</div>`)[0];
+                popup_1caaab36c3a46d2f00bbeddb16462636.setContent(html_6ea7470a518d2b718a7da050f3e38941);
+            
+        
+
+        marker_9f4864103d7d6c4796ce555092935722.bindPopup(popup_1caaab36c3a46d2f00bbeddb16462636)
+        ;
+
+        
+    
+    
+            var marker_92f73d22f056bc85ccb19c559b0d9480 = L.marker(
+                [44.3661943, -73.23266079999999],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_e4dd684f3e561bd76acdedd6d3dec18e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_92f73d22f056bc85ccb19c559b0d9480.setIcon(icon_e4dd684f3e561bd76acdedd6d3dec18e);
+        
+    
+        var popup_1902ead8dd57f219dba5eb6eed8f823b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3433636db4bc3714274b4ec3a0560a79 = $(`<div id="html_3433636db4bc3714274b4ec3a0560a79" style="width: 100.0%; height: 100.0%;">Fiddlehead</div>`)[0];
+                popup_1902ead8dd57f219dba5eb6eed8f823b.setContent(html_3433636db4bc3714274b4ec3a0560a79);
+            
+        
+
+        marker_92f73d22f056bc85ccb19c559b0d9480.bindPopup(popup_1902ead8dd57f219dba5eb6eed8f823b)
+        ;
+
+        
+    
+    
+            var marker_dca975d50db3be8ec49e390ea27bcf4c = L.marker(
+                [44.4791946, -73.21999900000002],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_cc58a09f4af14975338dd6d7a1544be6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_dca975d50db3be8ec49e390ea27bcf4c.setIcon(icon_cc58a09f4af14975338dd6d7a1544be6);
+        
+    
+        var popup_8c44f8621bef53df37999e4ab54754e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffb429c37fd9525e3c428e219ad38235 = $(`<div id="html_ffb429c37fd9525e3c428e219ad38235" style="width: 100.0%; height: 100.0%;">Foam</div>`)[0];
+                popup_8c44f8621bef53df37999e4ab54754e7.setContent(html_ffb429c37fd9525e3c428e219ad38235);
+            
+        
+
+        marker_dca975d50db3be8ec49e390ea27bcf4c.bindPopup(popup_8c44f8621bef53df37999e4ab54754e7)
+        ;
+
+        
+    
+    
+            var marker_372fae33073fbcd83077847e519dd2f2 = L.marker(
+                [43.6590993, -70.2568189],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_44ba15e95d7e594206334f742e1b9eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_372fae33073fbcd83077847e519dd2f2.setIcon(icon_44ba15e95d7e594206334f742e1b9eaf);
+        
+    
+        var popup_52d96926aec471680f4bf3b45c903c4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3653d4bf9a6bc571a4683bdb6db324ac = $(`<div id="html_3653d4bf9a6bc571a4683bdb6db324ac" style="width: 100.0%; height: 100.0%;">Foundation</div>`)[0];
+                popup_52d96926aec471680f4bf3b45c903c4f.setContent(html_3653d4bf9a6bc571a4683bdb6db324ac);
+            
+        
+
+        marker_372fae33073fbcd83077847e519dd2f2.bindPopup(popup_52d96926aec471680f4bf3b45c903c4f)
+        ;
+
+        
+    
+    
+            var marker_5f1e8882e01bf79438ce2e0260d1d3af = L.marker(
+                [43.6701814, -70.2559177],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_f6843002914c5cc2cab4a9bec8787d82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f1e8882e01bf79438ce2e0260d1d3af.setIcon(icon_f6843002914c5cc2cab4a9bec8787d82);
+        
+    
+        var popup_86c35326bcb149da5b7f2ce043757ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f419287854f3d5098ac0d1d12fa0b2b0 = $(`<div id="html_f419287854f3d5098ac0d1d12fa0b2b0" style="width: 100.0%; height: 100.0%;">Goodfire</div>`)[0];
+                popup_86c35326bcb149da5b7f2ce043757ab2.setContent(html_f419287854f3d5098ac0d1d12fa0b2b0);
+            
+        
+
+        marker_5f1e8882e01bf79438ce2e0260d1d3af.bindPopup(popup_86c35326bcb149da5b7f2ce043757ab2)
+        ;
+
+        
+    
+    
+            var marker_4e309f179cb0d229c1909c2f4fd0eeac = L.marker(
+                [43.6700593, -70.2558802],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_1c3095b8baa002bdbf320466534120ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4e309f179cb0d229c1909c2f4fd0eeac.setIcon(icon_1c3095b8baa002bdbf320466534120ca);
+        
+    
+        var popup_850a2ee04be1ae8bf19a34d59e31181b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e18b8f3a255d7468a46f5a1c6b3747ac = $(`<div id="html_e18b8f3a255d7468a46f5a1c6b3747ac" style="width: 100.0%; height: 100.0%;">Lone Pine</div>`)[0];
+                popup_850a2ee04be1ae8bf19a34d59e31181b.setContent(html_e18b8f3a255d7468a46f5a1c6b3747ac);
+            
+        
+
+        marker_4e309f179cb0d229c1909c2f4fd0eeac.bindPopup(popup_850a2ee04be1ae8bf19a34d59e31181b)
+        ;
+
+        
+    
+    
+            var marker_bb839389495917c0b7ea70af66469353 = L.marker(
+                [43.66547750000001, -70.2572686],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_c095f40ba516b67a7f1a4244ee914563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bb839389495917c0b7ea70af66469353.setIcon(icon_c095f40ba516b67a7f1a4244ee914563);
+        
+    
+        var popup_f9b8b7dbe30f57cad4969bce1716c821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d578967229c487823ec2aa5e6963d535 = $(`<div id="html_d578967229c487823ec2aa5e6963d535" style="width: 100.0%; height: 100.0%;">Rising Tide</div>`)[0];
+                popup_f9b8b7dbe30f57cad4969bce1716c821.setContent(html_d578967229c487823ec2aa5e6963d535);
+            
+        
+
+        marker_bb839389495917c0b7ea70af66469353.bindPopup(popup_f9b8b7dbe30f57cad4969bce1716c821)
+        ;
+
+        
+    
+    
+            var marker_b7f788ccc80687aea8bccfa78955af21 = L.marker(
+                [44.4759272, -72.7157139],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_ee22ddd4dd1287498d5f2bda67f2aafa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b7f788ccc80687aea8bccfa78955af21.setIcon(icon_ee22ddd4dd1287498d5f2bda67f2aafa);
+        
+    
+        var popup_8ffda44d79422179941b163f956f0e07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10fd0535a14e2b4f6e1d31dfd478a55d = $(`<div id="html_10fd0535a14e2b4f6e1d31dfd478a55d" style="width: 100.0%; height: 100.0%;">The Alchemist</div>`)[0];
+                popup_8ffda44d79422179941b163f956f0e07.setContent(html_10fd0535a14e2b4f6e1d31dfd478a55d);
+            
+        
+
+        marker_b7f788ccc80687aea8bccfa78955af21.bindPopup(popup_8ffda44d79422179941b163f956f0e07)
+        ;
+
+        
+    
+    
+            var marker_1487ec57b246040eaba9b12cc9eaf197 = L.marker(
+                [42.13659120000001, -72.0123365],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_a77db83190d46c0919f7dd00ec73e21e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1487ec57b246040eaba9b12cc9eaf197.setIcon(icon_a77db83190d46c0919f7dd00ec73e21e);
+        
+    
+        var popup_605cfdd8bd81207c496308ed7fe07fda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc0ce6029e8a7065caaaed11363924b = $(`<div id="html_8dc0ce6029e8a7065caaaed11363924b" style="width: 100.0%; height: 100.0%;">Tree House</div>`)[0];
+                popup_605cfdd8bd81207c496308ed7fe07fda.setContent(html_8dc0ce6029e8a7065caaaed11363924b);
+            
+        
+
+        marker_1487ec57b246040eaba9b12cc9eaf197.bindPopup(popup_605cfdd8bd81207c496308ed7fe07fda)
+        ;
+
+        
+    
+    
+            var marker_dafe371069a2abd3a60a36f0fbbc6190 = L.marker(
+                [43.85758, -70.0836612],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_11856e8c41ec4b8e2f66ce5fb8c508e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_dafe371069a2abd3a60a36f0fbbc6190.setIcon(icon_11856e8c41ec4b8e2f66ce5fb8c508e8);
+        
+    
+        var popup_928842328603d67884eac3690e84dd5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16fff12d9e15567d24f5a4263f42ef87 = $(`<div id="html_16fff12d9e15567d24f5a4263f42ef87" style="width: 100.0%; height: 100.0%;">Mast Landing Brewing</div>`)[0];
+                popup_928842328603d67884eac3690e84dd5f.setContent(html_16fff12d9e15567d24f5a4263f42ef87);
+            
+        
+
+        marker_dafe371069a2abd3a60a36f0fbbc6190.bindPopup(popup_928842328603d67884eac3690e84dd5f)
+        ;
+
+        
+    
+    
+            var marker_5db107270c8762edced6af10965bf78e = L.marker(
+                [43.8394584, -70.12119109999999],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_e5a690f454c73022b78509a42bc620b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5db107270c8762edced6af10965bf78e.setIcon(icon_e5a690f454c73022b78509a42bc620b2);
+        
+    
+        var popup_fd84254ea7543eb67ef16a739919c009 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02f4e91034611563fdd35ce16035b019 = $(`<div id="html_02f4e91034611563fdd35ce16035b019" style="width: 100.0%; height: 100.0%;">Maine Beer Company</div>`)[0];
+                popup_fd84254ea7543eb67ef16a739919c009.setContent(html_02f4e91034611563fdd35ce16035b019);
+            
+        
+
+        marker_5db107270c8762edced6af10965bf78e.bindPopup(popup_fd84254ea7543eb67ef16a739919c009)
+        ;
+
+        
+    
+    
+            var marker_4997cdadfea6ca91433071bdf274f563 = L.marker(
+                [44.470915, -72.7351224],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_3a091f0fd99fe0c4bba971ec81745ed9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4997cdadfea6ca91433071bdf274f563.setIcon(icon_3a091f0fd99fe0c4bba971ec81745ed9);
+        
+    
+        var popup_b7315ce0df8786538d68bf835a20ded6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d53317cbaa916c84b791015b2d84135 = $(`<div id="html_5d53317cbaa916c84b791015b2d84135" style="width: 100.0%; height: 100.0%;">Von Trapp</div>`)[0];
+                popup_b7315ce0df8786538d68bf835a20ded6.setContent(html_5d53317cbaa916c84b791015b2d84135);
+            
+        
+
+        marker_4997cdadfea6ca91433071bdf274f563.bindPopup(popup_b7315ce0df8786538d68bf835a20ded6)
+        ;
+
+        
+    
+    
+            var marker_6350d5c4f15e13afb8226da2242023af = L.marker(
+                [43.0499113, -76.5626478],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_86abdbd9fdd4ce0b6f6ec1080dd322f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6350d5c4f15e13afb8226da2242023af.setIcon(icon_86abdbd9fdd4ce0b6f6ec1080dd322f7);
+        
+    
+        var popup_13755da0864bb36c17c01475885df051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_addf7d4ba0e4e1d37b8ccfd51b7a0621 = $(`<div id="html_addf7d4ba0e4e1d37b8ccfd51b7a0621" style="width: 100.0%; height: 100.0%;">Lunkenheimer</div>`)[0];
+                popup_13755da0864bb36c17c01475885df051.setContent(html_addf7d4ba0e4e1d37b8ccfd51b7a0621);
+            
+        
+
+        marker_6350d5c4f15e13afb8226da2242023af.bindPopup(popup_13755da0864bb36c17c01475885df051)
+        ;
+
+        
+    
+    
+            var marker_e3572de74bfc166d33eaa8b7cb09582c = L.marker(
+                [43.6667361, -70.2549307],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_351e509f181feae83b386bb85e4c212f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e3572de74bfc166d33eaa8b7cb09582c.setIcon(icon_351e509f181feae83b386bb85e4c212f);
+        
+    
+        var popup_55be1a8cfc683fec039ff5f3a33604ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f9fd92474954d22e7f1bc339ff820e = $(`<div id="html_d2f9fd92474954d22e7f1bc339ff820e" style="width: 100.0%; height: 100.0%;">Portland Zoo</div>`)[0];
+                popup_55be1a8cfc683fec039ff5f3a33604ae.setContent(html_d2f9fd92474954d22e7f1bc339ff820e);
+            
+        
+
+        marker_e3572de74bfc166d33eaa8b7cb09582c.bindPopup(popup_55be1a8cfc683fec039ff5f3a33604ae)
+        ;
+
+        
+    
+    
+            var marker_547cc5329ba2eb766554ac1b66f49cd1 = L.marker(
+                [44.4596487, -73.21370569999999],
+                {}
+            ).addTo(feature_group_6e92e248075572847f4497f8b29d8d9d);
+        
+    
+            var icon_de2d5a5c1f964e3f281372ec896cdbf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_547cc5329ba2eb766554ac1b66f49cd1.setIcon(icon_de2d5a5c1f964e3f281372ec896cdbf2);
+        
+    
+        var popup_65a4adde6cf0efb54fefc3be972a229a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de815aa4e18c41651bd426ea54bc2fa = $(`<div id="html_7de815aa4e18c41651bd426ea54bc2fa" style="width: 100.0%; height: 100.0%;">Zero Gravity</div>`)[0];
+                popup_65a4adde6cf0efb54fefc3be972a229a.setContent(html_7de815aa4e18c41651bd426ea54bc2fa);
+            
+        
+
+        marker_547cc5329ba2eb766554ac1b66f49cd1.bindPopup(popup_65a4adde6cf0efb54fefc3be972a229a)
+        ;
+
+        
+    
+    
+            feature_group_6e92e248075572847f4497f8b29d8d9d.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var feature_group_34a0a17c84c52fe8a93528b63a6c15ed = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_a4a5e057becfbb7a2067704566807169 = L.marker(
+                [43.061029, -86.20656699999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_0b1e6377ce887c95cbfdf5cb5f5cc97f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4a5e057becfbb7a2067704566807169.setIcon(icon_0b1e6377ce887c95cbfdf5cb5f5cc97f);
+        
+    
+        var popup_4aea6f5f17ba7489bf8465f68f171ffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a04497318ac3406450b82e24e07b7d = $(`<div id="html_02a04497318ac3406450b82e24e07b7d" style="width: 100.0%; height: 100.0%;">Burzurk Brewery, Grand Haven, MI</div>`)[0];
+                popup_4aea6f5f17ba7489bf8465f68f171ffa.setContent(html_02a04497318ac3406450b82e24e07b7d);
+            
+        
+
+        marker_a4a5e057becfbb7a2067704566807169.bindPopup(popup_4aea6f5f17ba7489bf8465f68f171ffa)
+        ;
+
+        
+    
+    
+            var marker_ad5cdb8f34d94f1eb4bf0fa7da2c6840 = L.marker(
+                [43.0639112, -85.9347667],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_b2066cade9eb71d01fc18366d47ffdba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ad5cdb8f34d94f1eb4bf0fa7da2c6840.setIcon(icon_b2066cade9eb71d01fc18366d47ffdba);
+        
+    
+        var popup_7cdf3c944b734f08b6615da566463cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a37466bcc131702af62537baf345c1e = $(`<div id="html_4a37466bcc131702af62537baf345c1e" style="width: 100.0%; height: 100.0%;">Coopersville Brewing, Coopersville, MI</div>`)[0];
+                popup_7cdf3c944b734f08b6615da566463cb6.setContent(html_4a37466bcc131702af62537baf345c1e);
+            
+        
+
+        marker_ad5cdb8f34d94f1eb4bf0fa7da2c6840.bindPopup(popup_7cdf3c944b734f08b6615da566463cb6)
+        ;
+
+        
+    
+    
+            var marker_88e66bd4653099f7b7039d378cd31e71 = L.marker(
+                [42.2666327, -84.96368249999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_66c19b442ef1071c9f122bc5236e244f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_88e66bd4653099f7b7039d378cd31e71.setIcon(icon_66c19b442ef1071c9f122bc5236e244f);
+        
+    
+        var popup_0f440f36db2c33d40555af347906062b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2810966ad321eb51ce9b1ae2c156b4fd = $(`<div id="html_2810966ad321eb51ce9b1ae2c156b4fd" style="width: 100.0%; height: 100.0%;">Dark Horse, Marshall, MI</div>`)[0];
+                popup_0f440f36db2c33d40555af347906062b.setContent(html_2810966ad321eb51ce9b1ae2c156b4fd);
+            
+        
+
+        marker_88e66bd4653099f7b7039d378cd31e71.bindPopup(popup_0f440f36db2c33d40555af347906062b)
+        ;
+
+        
+    
+    
+            var marker_d27cf0922a9081ee2d20561a82b0da1b = L.marker(
+                [44.8331931, -85.68986609999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_01fae7777a0c601b1aa8bc2840cf74a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d27cf0922a9081ee2d20561a82b0da1b.setIcon(icon_01fae7777a0c601b1aa8bc2840cf74a1);
+        
+    
+        var popup_de11354aafe1fb99ae1b3341c072d530 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd13b1ae01d7af520c2d219ee7d55be = $(`<div id="html_dcd13b1ae01d7af520c2d219ee7d55be" style="width: 100.0%; height: 100.0%;">Farm Club, Traverse City, MI</div>`)[0];
+                popup_de11354aafe1fb99ae1b3341c072d530.setContent(html_dcd13b1ae01d7af520c2d219ee7d55be);
+            
+        
+
+        marker_d27cf0922a9081ee2d20561a82b0da1b.bindPopup(popup_de11354aafe1fb99ae1b3341c072d530)
+        ;
+
+        
+    
+    
+            var marker_1daa8e7fb2ab410582b7fd5a9299cb98 = L.marker(
+                [43.4100107, -86.34867919999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_b0b893ad3e368d499c24271f60f861a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1daa8e7fb2ab410582b7fd5a9299cb98.setIcon(icon_b0b893ad3e368d499c24271f60f861a5);
+        
+    
+        var popup_1c35dcaff1d12245b78ca7c4532ca656 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c4be0642b177d84878a1a12cb648ae = $(`<div id="html_19c4be0642b177d84878a1a12cb648ae" style="width: 100.0%; height: 100.0%;">Fetch, Whitehall, MI</div>`)[0];
+                popup_1c35dcaff1d12245b78ca7c4532ca656.setContent(html_19c4be0642b177d84878a1a12cb648ae);
+            
+        
+
+        marker_1daa8e7fb2ab410582b7fd5a9299cb98.bindPopup(popup_1c35dcaff1d12245b78ca7c4532ca656)
+        ;
+
+        
+    
+    
+            var marker_2399bf8453be83d94db5c68e6ccad1c6 = L.marker(
+                [44.6294106, -86.0939302],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_c5ec759cbf827fd738302efd1fc8da01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2399bf8453be83d94db5c68e6ccad1c6.setIcon(icon_c5ec759cbf827fd738302efd1fc8da01);
+        
+    
+        var popup_a3dfd7b5c58a71f48111ddb82edbd392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fe9342976a6a3204284f8b3e86d9f0a = $(`<div id="html_0fe9342976a6a3204284f8b3e86d9f0a" style="width: 100.0%; height: 100.0%;">Five Shores, Beulah, MI</div>`)[0];
+                popup_a3dfd7b5c58a71f48111ddb82edbd392.setContent(html_0fe9342976a6a3204284f8b3e86d9f0a);
+            
+        
+
+        marker_2399bf8453be83d94db5c68e6ccad1c6.bindPopup(popup_a3dfd7b5c58a71f48111ddb82edbd392)
+        ;
+
+        
+    
+    
+            var marker_04ede411fe0dc4149fdda65c6ffd6575 = L.marker(
+                [44.7633743, -85.61846299999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_cd6f071070d441c2a9cd63bb50ce01ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_04ede411fe0dc4149fdda65c6ffd6575.setIcon(icon_cd6f071070d441c2a9cd63bb50ce01ff);
+        
+    
+        var popup_b95c3f74be009e827ca2a62bcb1facf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_581059db253ee57c3efc48aff458bfd2 = $(`<div id="html_581059db253ee57c3efc48aff458bfd2" style="width: 100.0%; height: 100.0%;">Fresh Coast, Traverse City, MI</div>`)[0];
+                popup_b95c3f74be009e827ca2a62bcb1facf5.setContent(html_581059db253ee57c3efc48aff458bfd2);
+            
+        
+
+        marker_04ede411fe0dc4149fdda65c6ffd6575.bindPopup(popup_b95c3f74be009e827ca2a62bcb1facf5)
+        ;
+
+        
+    
+    
+            var marker_54408b5fd7132123cd94aae535d6539f = L.marker(
+                [43.0633333, -86.23166669999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_7bbfbadbea101765b491752ff7d1fd0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_54408b5fd7132123cd94aae535d6539f.setIcon(icon_7bbfbadbea101765b491752ff7d1fd0a);
+        
+    
+        var popup_901dd750eb8d5dc14c73f5c0c9886906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05d80c19ab210ab1cc9316d489092d5 = $(`<div id="html_d05d80c19ab210ab1cc9316d489092d5" style="width: 100.0%; height: 100.0%;">Grand Armory, Grand Haven, MI</div>`)[0];
+                popup_901dd750eb8d5dc14c73f5c0c9886906.setContent(html_d05d80c19ab210ab1cc9316d489092d5);
+            
+        
+
+        marker_54408b5fd7132123cd94aae535d6539f.bindPopup(popup_901dd750eb8d5dc14c73f5c0c9886906)
+        ;
+
+        
+    
+    
+            var marker_2938d2fc733076bea61b18b9a153ac4b = L.marker(
+                [42.6855157, -86.16395650000001],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_5c03fdaf0bce25f98074adce28889047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2938d2fc733076bea61b18b9a153ac4b.setIcon(icon_5c03fdaf0bce25f98074adce28889047);
+        
+    
+        var popup_77cc9d4e0ec58e4874e17d29898d3810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd976e956c832f638e885be6d9946d0 = $(`<div id="html_0fd976e956c832f638e885be6d9946d0" style="width: 100.0%; height: 100.0%;">Guardian Brewing, Saugatuck, MI</div>`)[0];
+                popup_77cc9d4e0ec58e4874e17d29898d3810.setContent(html_0fd976e956c832f638e885be6d9946d0);
+            
+        
+
+        marker_2938d2fc733076bea61b18b9a153ac4b.bindPopup(popup_77cc9d4e0ec58e4874e17d29898d3810)
+        ;
+
+        
+    
+    
+            var marker_905c8e33c652c4286c1f227ce2ba3baa = L.marker(
+                [41.9488144, -86.5561563],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_5881505e0305f4c30b72083980f8345e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_905c8e33c652c4286c1f227ce2ba3baa.setIcon(icon_5881505e0305f4c30b72083980f8345e);
+        
+    
+        var popup_9209d34c0179853e09e74b660a1c140d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0781552fc2c00280f26a35c0db80bf2 = $(`<div id="html_b0781552fc2c00280f26a35c0db80bf2" style="width: 100.0%; height: 100.0%;">Haymarket, Bridgman, MI</div>`)[0];
+                popup_9209d34c0179853e09e74b660a1c140d.setContent(html_b0781552fc2c00280f26a35c0db80bf2);
+            
+        
+
+        marker_905c8e33c652c4286c1f227ce2ba3baa.bindPopup(popup_9209d34c0179853e09e74b660a1c140d)
+        ;
+
+        
+    
+    
+            var marker_e1bc2bb0b085a4529e4e81af54638d46 = L.marker(
+                [44.9683952, -85.6477381],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_2ef16d069946705ef335129d13ddf1f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1bc2bb0b085a4529e4e81af54638d46.setIcon(icon_2ef16d069946705ef335129d13ddf1f8);
+        
+    
+        var popup_55c69f1df8b85877fc139bb060c93510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4207acb8413fbb157a2436d5df9fac = $(`<div id="html_cd4207acb8413fbb157a2436d5df9fac" style="width: 100.0%; height: 100.0%;">Hop Lot, Suttons Bay, MI</div>`)[0];
+                popup_55c69f1df8b85877fc139bb060c93510.setContent(html_cd4207acb8413fbb157a2436d5df9fac);
+            
+        
+
+        marker_e1bc2bb0b085a4529e4e81af54638d46.bindPopup(popup_55c69f1df8b85877fc139bb060c93510)
+        ;
+
+        
+    
+    
+            var marker_5c34f2cf962bf3eaf39a1c9277536cf0 = L.marker(
+                [43.9521387, -86.44793299999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_f33a2dc88febd9e3dbbf2bae11882188 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5c34f2cf962bf3eaf39a1c9277536cf0.setIcon(icon_f33a2dc88febd9e3dbbf2bae11882188);
+        
+    
+        var popup_de495fedad522701265faa9f90dd8dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f907feee58cf27e9ee850c38cc9831f5 = $(`<div id="html_f907feee58cf27e9ee850c38cc9831f5" style="width: 100.0%; height: 100.0%;">James Port Brewing, Ludington, MI</div>`)[0];
+                popup_de495fedad522701265faa9f90dd8dce.setContent(html_f907feee58cf27e9ee850c38cc9831f5);
+            
+        
+
+        marker_5c34f2cf962bf3eaf39a1c9277536cf0.bindPopup(popup_de495fedad522701265faa9f90dd8dce)
+        ;
+
+        
+    
+    
+            var marker_e36c1aef96934868862d241c070e4c92 = L.marker(
+                [44.7243364, -85.84295879999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_3ba4eefdb0042b72afe1396944f6e348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e36c1aef96934868862d241c070e4c92.setIcon(icon_3ba4eefdb0042b72afe1396944f6e348);
+        
+    
+        var popup_42a56583718f27b0c4a58c2b16a65878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c112d6abfe3320aa3990cae86ec70ff = $(`<div id="html_3c112d6abfe3320aa3990cae86ec70ff" style="width: 100.0%; height: 100.0%;">Lake Ann Brewing, Lake Ann, MI</div>`)[0];
+                popup_42a56583718f27b0c4a58c2b16a65878.setContent(html_3c112d6abfe3320aa3990cae86ec70ff);
+            
+        
+
+        marker_e36c1aef96934868862d241c070e4c92.bindPopup(popup_42a56583718f27b0c4a58c2b16a65878)
+        ;
+
+        
+    
+    
+            var marker_75a176d6b31dd4e3b6758f9020e98d4d = L.marker(
+                [42.11809100000001, -86.45369000000001],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_b03f0df0301666c4f741ac732fe6b91c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75a176d6b31dd4e3b6758f9020e98d4d.setIcon(icon_b03f0df0301666c4f741ac732fe6b91c);
+        
+    
+        var popup_8837bd0869415690fa70c92324439664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b373bddf27172bc046f412e9cbcffb31 = $(`<div id="html_b373bddf27172bc046f412e9cbcffb31" style="width: 100.0%; height: 100.0%;">Livery, Benton Harbor, MI</div>`)[0];
+                popup_8837bd0869415690fa70c92324439664.setContent(html_b373bddf27172bc046f412e9cbcffb31);
+            
+        
+
+        marker_75a176d6b31dd4e3b6758f9020e98d4d.bindPopup(popup_8837bd0869415690fa70c92324439664)
+        ;
+
+        
+    
+    
+            var marker_bc53527485f1ed9d2cba9835f008b26c = L.marker(
+                [44.7632755, -85.61687429999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_5f058f6f48f1616d077d0e7ee0e07aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bc53527485f1ed9d2cba9835f008b26c.setIcon(icon_5f058f6f48f1616d077d0e7ee0e07aad);
+        
+    
+        var popup_04b63b191ea8ae2b16cdf2a9451c5a09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cda2e51f9cffdf8cbfdfc27431f4e404 = $(`<div id="html_cda2e51f9cffdf8cbfdfc27431f4e404" style="width: 100.0%; height: 100.0%;">Middlecoast, Traverse City, MI</div>`)[0];
+                popup_04b63b191ea8ae2b16cdf2a9451c5a09.setContent(html_cda2e51f9cffdf8cbfdfc27431f4e404);
+            
+        
+
+        marker_bc53527485f1ed9d2cba9835f008b26c.bindPopup(popup_04b63b191ea8ae2b16cdf2a9451c5a09)
+        ;
+
+        
+    
+    
+            var marker_1056660b322398196173a1b27fcf0ff1 = L.marker(
+                [45.1298496, -85.6167741],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_8d92c003e000a67d444ae78c10e28cc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1056660b322398196173a1b27fcf0ff1.setIcon(icon_8d92c003e000a67d444ae78c10e28cc5);
+        
+    
+        var popup_5bfb66f66233423ba90a9171a9cc8e99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f15286d25b210238f920289420ea18e6 = $(`<div id="html_f15286d25b210238f920289420ea18e6" style="width: 100.0%; height: 100.0%;">Mitten, Northport, MI</div>`)[0];
+                popup_5bfb66f66233423ba90a9171a9cc8e99.setContent(html_f15286d25b210238f920289420ea18e6);
+            
+        
+
+        marker_1056660b322398196173a1b27fcf0ff1.bindPopup(popup_5bfb66f66233423ba90a9171a9cc8e99)
+        ;
+
+        
+    
+    
+            var marker_81fb822ea096e905e909656458cc97cc = L.marker(
+                [42.1141719, -86.4858826],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_30196ca701f8cb8a62fc3e22eafd48e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_81fb822ea096e905e909656458cc97cc.setIcon(icon_30196ca701f8cb8a62fc3e22eafd48e0);
+        
+    
+        var popup_dd296f39dc5f39519389362ae861940b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b8f4a87217ca4e748c7a3d80158d0f1 = $(`<div id="html_3b8f4a87217ca4e748c7a3d80158d0f1" style="width: 100.0%; height: 100.0%;">North Pier, Saint Joseph, MI</div>`)[0];
+                popup_dd296f39dc5f39519389362ae861940b.setContent(html_3b8f4a87217ca4e748c7a3d80158d0f1);
+            
+        
+
+        marker_81fb822ea096e905e909656458cc97cc.bindPopup(popup_dd296f39dc5f39519389362ae861940b)
+        ;
+
+        
+    
+    
+            var marker_f4aa577396ed2a534a20a77c52f5fd1d = L.marker(
+                [44.764378, -85.62846689999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_952bdfe8f8cfccab20d5a47186c42f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f4aa577396ed2a534a20a77c52f5fd1d.setIcon(icon_952bdfe8f8cfccab20d5a47186c42f24);
+        
+    
+        var popup_359ea9b6ae49cf1e5ae7b64ef0c75af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b038de2879ae87a748234d25b658c839 = $(`<div id="html_b038de2879ae87a748234d25b658c839" style="width: 100.0%; height: 100.0%;">North Peak, Traverse City, MI</div>`)[0];
+                popup_359ea9b6ae49cf1e5ae7b64ef0c75af4.setContent(html_b038de2879ae87a748234d25b658c839);
+            
+        
+
+        marker_f4aa577396ed2a534a20a77c52f5fd1d.bindPopup(popup_359ea9b6ae49cf1e5ae7b64ef0c75af4)
+        ;
+
+        
+    
+    
+            var marker_e23fd22bd03c3826266d418049a93b00 = L.marker(
+                [43.4171438, -86.3545625],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_581135eecda0661cb642fb95da04de26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e23fd22bd03c3826266d418049a93b00.setIcon(icon_581135eecda0661cb642fb95da04de26);
+        
+    
+        var popup_29ed2aa76e307456505502708e47aea7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d0f03059ca50c9b6a2af57846da31f0 = $(`<div id="html_8d0f03059ca50c9b6a2af57846da31f0" style="width: 100.0%; height: 100.0%;">North Grove, Montague, MI</div>`)[0];
+                popup_29ed2aa76e307456505502708e47aea7.setContent(html_8d0f03059ca50c9b6a2af57846da31f0);
+            
+        
+
+        marker_e23fd22bd03c3826266d418049a93b00.bindPopup(popup_29ed2aa76e307456505502708e47aea7)
+        ;
+
+        
+    
+    
+            var marker_fb07db1e840a6378f116611fdf32a2f3 = L.marker(
+                [43.0646785, -86.2328527],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_492744e5a8a2ca6862a93da64058b9b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fb07db1e840a6378f116611fdf32a2f3.setIcon(icon_492744e5a8a2ca6862a93da64058b9b9);
+        
+    
+        var popup_f54001f4f8b09801d413c4394d9c97d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374f4d09661b3232103fc8021dbfd675 = $(`<div id="html_374f4d09661b3232103fc8021dbfd675" style="width: 100.0%; height: 100.0%;">Odd Side Ales, Grand Haven, MI</div>`)[0];
+                popup_f54001f4f8b09801d413c4394d9c97d8.setContent(html_374f4d09661b3232103fc8021dbfd675);
+            
+        
+
+        marker_fb07db1e840a6378f116611fdf32a2f3.bindPopup(popup_f54001f4f8b09801d413c4394d9c97d8)
+        ;
+
+        
+    
+    
+            var marker_27849b1a3edc1c11886431eb6691cae9 = L.marker(
+                [42.2102444, -85.8958679],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_0790c22ff8ae59fe46150f6d1436cb31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_27849b1a3edc1c11886431eb6691cae9.setIcon(icon_0790c22ff8ae59fe46150f6d1436cb31);
+        
+    
+        var popup_bae36b2eac0c83b78e28a02fde0a25bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeecaa8e11209377606a4bcf8fc7ce94 = $(`<div id="html_aeecaa8e11209377606a4bcf8fc7ce94" style="width: 100.0%; height: 100.0%;">Paw Paw Brewing, Paw Paw, MI</div>`)[0];
+                popup_bae36b2eac0c83b78e28a02fde0a25bd.setContent(html_aeecaa8e11209377606a4bcf8fc7ce94);
+            
+        
+
+        marker_27849b1a3edc1c11886431eb6691cae9.bindPopup(popup_bae36b2eac0c83b78e28a02fde0a25bd)
+        ;
+
+        
+    
+    
+            var marker_5685c808f5b0dca49f3f86dbf21ddebf = L.marker(
+                [43.2358263, -86.25661],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_79bd8ca40868c86d449a09cae95fef6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5685c808f5b0dca49f3f86dbf21ddebf.setIcon(icon_79bd8ca40868c86d449a09cae95fef6f);
+        
+    
+        var popup_ae35e1d76dbf10eceb50595947dba2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9679acf7c989db48cbfa9600cd5f84ff = $(`<div id="html_9679acf7c989db48cbfa9600cd5f84ff" style="width: 100.0%; height: 100.0%;">Pigeon Hill Brewing, Muskegon, MI</div>`)[0];
+                popup_ae35e1d76dbf10eceb50595947dba2b9.setContent(html_9679acf7c989db48cbfa9600cd5f84ff);
+            
+        
+
+        marker_5685c808f5b0dca49f3f86dbf21ddebf.bindPopup(popup_ae35e1d76dbf10eceb50595947dba2b9)
+        ;
+
+        
+    
+    
+            var marker_8f3948768ac123e567549880619ef066 = L.marker(
+                [44.7599068, -85.6196475],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_4f90598488f085b185910dc175a17fbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8f3948768ac123e567549880619ef066.setIcon(icon_4f90598488f085b185910dc175a17fbd);
+        
+    
+        var popup_d6f50194b97ddd7b00a40f625f8e920a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c408cf7423ba18722092d3690f0f59d = $(`<div id="html_8c408cf7423ba18722092d3690f0f59d" style="width: 100.0%; height: 100.0%;">Rare Bird, Traverse City, MI</div>`)[0];
+                popup_d6f50194b97ddd7b00a40f625f8e920a.setContent(html_8c408cf7423ba18722092d3690f0f59d);
+            
+        
+
+        marker_8f3948768ac123e567549880619ef066.bindPopup(popup_d6f50194b97ddd7b00a40f625f8e920a)
+        ;
+
+        
+    
+    
+            var marker_d142b17bfe1b88f42cc70e851f3d5e31 = L.marker(
+                [44.7494479, -85.61950759999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_c58096c03681a5a25a874f2d549d06bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d142b17bfe1b88f42cc70e851f3d5e31.setIcon(icon_c58096c03681a5a25a874f2d549d06bc);
+        
+    
+        var popup_61ad2eb2a88e5fb59a1e7a62699ad90f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b05b3a1b4ad0a92a8c5fecfeccf181e = $(`<div id="html_4b05b3a1b4ad0a92a8c5fecfeccf181e" style="width: 100.0%; height: 100.0%;">Right Brain, Traverse City, MI</div>`)[0];
+                popup_61ad2eb2a88e5fb59a1e7a62699ad90f.setContent(html_4b05b3a1b4ad0a92a8c5fecfeccf181e);
+            
+        
+
+        marker_d142b17bfe1b88f42cc70e851f3d5e31.bindPopup(popup_61ad2eb2a88e5fb59a1e7a62699ad90f)
+        ;
+
+        
+    
+    
+            var marker_0343cd04b1c20afea3fda0d1bc725109 = L.marker(
+                [43.1888315, -86.2507936],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_0c090610599411c1c9e076a75a223d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0343cd04b1c20afea3fda0d1bc725109.setIcon(icon_0c090610599411c1c9e076a75a223d60);
+        
+    
+        var popup_a5ec1e6471926d07d1622613fb5e6c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb4878b92f0ff2b5d3a64f95ea9befd = $(`<div id="html_3eb4878b92f0ff2b5d3a64f95ea9befd" style="width: 100.0%; height: 100.0%;">Salty Pecker, Norton Shores, MI</div>`)[0];
+                popup_a5ec1e6471926d07d1622613fb5e6c25.setContent(html_3eb4878b92f0ff2b5d3a64f95ea9befd);
+            
+        
+
+        marker_0343cd04b1c20afea3fda0d1bc725109.bindPopup(popup_a5ec1e6471926d07d1622613fb5e6c25)
+        ;
+
+        
+    
+    
+            var marker_66cc5fb91c64fea127e32e505f09a33c = L.marker(
+                [42.6325682, -86.2125854],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_35fb4e668f6a841b79aeb7f544b0260d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_66cc5fb91c64fea127e32e505f09a33c.setIcon(icon_35fb4e668f6a841b79aeb7f544b0260d);
+        
+    
+        var popup_982187ee5c48292b3fb3b3ec09f40e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7ae7b027c07bdde6c53e62451b4eeb3 = $(`<div id="html_c7ae7b027c07bdde6c53e62451b4eeb3" style="width: 100.0%; height: 100.0%;">Saugatuck Brewing Company, Douglas, MI</div>`)[0];
+                popup_982187ee5c48292b3fb3b3ec09f40e63.setContent(html_c7ae7b027c07bdde6c53e62451b4eeb3);
+            
+        
+
+        marker_66cc5fb91c64fea127e32e505f09a33c.bindPopup(popup_982187ee5c48292b3fb3b3ec09f40e63)
+        ;
+
+        
+    
+    
+            var marker_59c81a0427c789ce3ca95d6a74528b12 = L.marker(
+                [41.824014, -86.6963763],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_5c9cd6f9801b9be6530d6dce5f5d4221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59c81a0427c789ce3ca95d6a74528b12.setIcon(icon_5c9cd6f9801b9be6530d6dce5f5d4221);
+        
+    
+        var popup_5e1f0daefa8a76f14e40da8103b3b863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03420456b3bd420091d014eb219ac51f = $(`<div id="html_03420456b3bd420091d014eb219ac51f" style="width: 100.0%; height: 100.0%;">Seedz, Union Pier, MI</div>`)[0];
+                popup_5e1f0daefa8a76f14e40da8103b3b863.setContent(html_03420456b3bd420091d014eb219ac51f);
+            
+        
+
+        marker_59c81a0427c789ce3ca95d6a74528b12.bindPopup(popup_5e1f0daefa8a76f14e40da8103b3b863)
+        ;
+
+        
+    
+    
+            var marker_7361ef49f8fd10fbde3636810cd676a8 = L.marker(
+                [44.97626899999999, -85.210357],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_481ae6a9941aa2dbad604ed206a04bb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7361ef49f8fd10fbde3636810cd676a8.setIcon(icon_481ae6a9941aa2dbad604ed206a04bb5);
+        
+    
+        var popup_8f6fea3be6df1dacf044c660179dff9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63a04329ff343b25b4e168fe5ef0b5bd = $(`<div id="html_63a04329ff343b25b4e168fe5ef0b5bd" style="width: 100.0%; height: 100.0%;">Short's Brewery, Bellaire, MI</div>`)[0];
+                popup_8f6fea3be6df1dacf044c660179dff9a.setContent(html_63a04329ff343b25b4e168fe5ef0b5bd);
+            
+        
+
+        marker_7361ef49f8fd10fbde3636810cd676a8.bindPopup(popup_8f6fea3be6df1dacf044c660179dff9a)
+        ;
+
+        
+    
+    
+            var marker_18ed8d189cd51a7be906ee2178e218e1 = L.marker(
+                [42.1086412, -86.4796334],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_df456bdb58e928f2a55f71924cdb059b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_18ed8d189cd51a7be906ee2178e218e1.setIcon(icon_df456bdb58e928f2a55f71924cdb059b);
+        
+    
+        var popup_875482f9fd9247a41bdbbb4556ff10e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d14bf434595904fdc1d72801a0fe3ce = $(`<div id="html_8d14bf434595904fdc1d72801a0fe3ce" style="width: 100.0%; height: 100.0%;">Silver Harbor, Saint Joseph, MI</div>`)[0];
+                popup_875482f9fd9247a41bdbbb4556ff10e6.setContent(html_8d14bf434595904fdc1d72801a0fe3ce);
+            
+        
+
+        marker_18ed8d189cd51a7be906ee2178e218e1.bindPopup(popup_875482f9fd9247a41bdbbb4556ff10e6)
+        ;
+
+        
+    
+    
+            var marker_3fa9d9b4a077eb93625bda25942e9b73 = L.marker(
+                [44.75987079999999, -85.6140738],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_615a223fa4599d5dda2652912cd95b4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3fa9d9b4a077eb93625bda25942e9b73.setIcon(icon_615a223fa4599d5dda2652912cd95b4d);
+        
+    
+        var popup_61bb0b367db2571bddab82658fa9eb5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa68a79bb227504be807d036f3feedfc = $(`<div id="html_fa68a79bb227504be807d036f3feedfc" style="width: 100.0%; height: 100.0%;">Silver Spruce, Traverse City, MI</div>`)[0];
+                popup_61bb0b367db2571bddab82658fa9eb5e.setContent(html_fa68a79bb227504be807d036f3feedfc);
+            
+        
+
+        marker_3fa9d9b4a077eb93625bda25942e9b73.bindPopup(popup_61bb0b367db2571bddab82658fa9eb5e)
+        ;
+
+        
+    
+    
+            var marker_932489c4c64fcdc2825cbb28eeac8fc8 = L.marker(
+                [44.6185796, -85.9969235],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_25cefe77cab51e288631571e9739a22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_932489c4c64fcdc2825cbb28eeac8fc8.setIcon(icon_25cefe77cab51e288631571e9739a22e);
+        
+    
+        var popup_54a08865e1f78a36b1bcfecb4dedb1ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67e86bd546988ec6b1bccb9c9d3f9816 = $(`<div id="html_67e86bd546988ec6b1bccb9c9d3f9816" style="width: 100.0%; height: 100.0%;">St. Ambrose, Beulah, MI</div>`)[0];
+                popup_54a08865e1f78a36b1bcfecb4dedb1ab.setContent(html_67e86bd546988ec6b1bccb9c9d3f9816);
+            
+        
+
+        marker_932489c4c64fcdc2825cbb28eeac8fc8.bindPopup(popup_54a08865e1f78a36b1bcfecb4dedb1ab)
+        ;
+
+        
+    
+    
+            var marker_62b425d700780914e642403f0a0ad69d = L.marker(
+                [43.9438614, -86.3394244],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_db483d5cec04292facb020e06d6e3de0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_62b425d700780914e642403f0a0ad69d.setIcon(icon_db483d5cec04292facb020e06d6e3de0);
+        
+    
+        var popup_d995404afea7c957cdfeb4ffcd3ecf68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4baaf32237c21d52b90a5281481409c5 = $(`<div id="html_4baaf32237c21d52b90a5281481409c5" style="width: 100.0%; height: 100.0%;">Starving Artist, Ludington, MI</div>`)[0];
+                popup_d995404afea7c957cdfeb4ffcd3ecf68.setContent(html_4baaf32237c21d52b90a5281481409c5);
+            
+        
+
+        marker_62b425d700780914e642403f0a0ad69d.bindPopup(popup_d995404afea7c957cdfeb4ffcd3ecf68)
+        ;
+
+        
+    
+    
+            var marker_7d18617b0ab11bb85de4608c772bdf73 = L.marker(
+                [44.632695, -86.241075],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_905abf081ba4e05e03a0f678477bad42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d18617b0ab11bb85de4608c772bdf73.setIcon(icon_905abf081ba4e05e03a0f678477bad42);
+        
+    
+        var popup_4b0e21ee7569c564d19a714e65ec95e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac752e8a17a10362229db8d606cc4a35 = $(`<div id="html_ac752e8a17a10362229db8d606cc4a35" style="width: 100.0%; height: 100.0%;">Stormcloud, Frankfort, MI</div>`)[0];
+                popup_4b0e21ee7569c564d19a714e65ec95e7.setContent(html_ac752e8a17a10362229db8d606cc4a35);
+            
+        
+
+        marker_7d18617b0ab11bb85de4608c772bdf73.bindPopup(popup_4b0e21ee7569c564d19a714e65ec95e7)
+        ;
+
+        
+    
+    
+            var marker_808e3a4045b284b4957912e7ecad9bbe = L.marker(
+                [44.7581577, -85.6096419],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_8634e365ca38d050d5b946317c6e9809 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_808e3a4045b284b4957912e7ecad9bbe.setIcon(icon_8634e365ca38d050d5b946317c6e9809);
+        
+    
+        var popup_2994e740b654b5cc66cf70ab4f4bf3ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93c6b81f267b4cfb987e79c6643130f = $(`<div id="html_f93c6b81f267b4cfb987e79c6643130f" style="width: 100.0%; height: 100.0%;">The Filling Station, Traverse City, MI</div>`)[0];
+                popup_2994e740b654b5cc66cf70ab4f4bf3ab.setContent(html_f93c6b81f267b4cfb987e79c6643130f);
+            
+        
+
+        marker_808e3a4045b284b4957912e7ecad9bbe.bindPopup(popup_2994e740b654b5cc66cf70ab4f4bf3ab)
+        ;
+
+        
+    
+    
+            var marker_c53959b8a2dc9944b4648904c64c72ef = L.marker(
+                [44.276464, -84.237674],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_1151c3b945a848a993853630959ac23a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c53959b8a2dc9944b4648904c64c72ef.setIcon(icon_1151c3b945a848a993853630959ac23a);
+        
+    
+        var popup_29d111365a242904a8d1facfd6ccc992 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_892ba0c08e3363df9d7a3257116be378 = $(`<div id="html_892ba0c08e3363df9d7a3257116be378" style="width: 100.0%; height: 100.0%;">The Highway Brewery, West Branch, MI</div>`)[0];
+                popup_29d111365a242904a8d1facfd6ccc992.setContent(html_892ba0c08e3363df9d7a3257116be378);
+            
+        
+
+        marker_c53959b8a2dc9944b4648904c64c72ef.bindPopup(popup_29d111365a242904a8d1facfd6ccc992)
+        ;
+
+        
+    
+    
+            var marker_51b6e9917ea5cfa4009c162d7266032d = L.marker(
+                [44.7652017, -85.62602179999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_d8146796c1c88c5acc88a0c00d0a8a66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_51b6e9917ea5cfa4009c162d7266032d.setIcon(icon_d8146796c1c88c5acc88a0c00d0a8a66);
+        
+    
+        var popup_e47be7db5655598d5567b5e1d0072b04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c634dda57098bff645e3f3db88673516 = $(`<div id="html_c634dda57098bff645e3f3db88673516" style="width: 100.0%; height: 100.0%;">The Workshop, Traverse City, MI</div>`)[0];
+                popup_e47be7db5655598d5567b5e1d0072b04.setContent(html_c634dda57098bff645e3f3db88673516);
+            
+        
+
+        marker_51b6e9917ea5cfa4009c162d7266032d.bindPopup(popup_e47be7db5655598d5567b5e1d0072b04)
+        ;
+
+        
+    
+    
+            var marker_df5f90934c5b3714838a56fffeaa1f53 = L.marker(
+                [44.25044370000001, -86.3160448],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_7b0b51260d3cd51a9a460e24e0d7aa73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df5f90934c5b3714838a56fffeaa1f53.setIcon(icon_7b0b51260d3cd51a9a460e24e0d7aa73);
+        
+    
+        var popup_f750d2bcb2ae33ee86a3e0d7f3c0b0fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d38309f800fabd13b252bd0f7356e5d = $(`<div id="html_6d38309f800fabd13b252bd0f7356e5d" style="width: 100.0%; height: 100.0%;">Third Life, Manistee, MI</div>`)[0];
+                popup_f750d2bcb2ae33ee86a3e0d7f3c0b0fb.setContent(html_6d38309f800fabd13b252bd0f7356e5d);
+            
+        
+
+        marker_df5f90934c5b3714838a56fffeaa1f53.bindPopup(popup_f750d2bcb2ae33ee86a3e0d7f3c0b0fb)
+        ;
+
+        
+    
+    
+            var marker_e3ed720707c5ea568138ecbc6949599b = L.marker(
+                [41.9431717, -86.5557264],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_cb989d58509cf7931f16183546718843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e3ed720707c5ea568138ecbc6949599b.setIcon(icon_cb989d58509cf7931f16183546718843);
+        
+    
+        var popup_6fea8903ff0aed21f97b9b38211cd8e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c86207a83a9e5e9e4f2c48fb9bb29eaa = $(`<div id="html_c86207a83a9e5e9e4f2c48fb9bb29eaa" style="width: 100.0%; height: 100.0%;">Transient, Bridgman, MI</div>`)[0];
+                popup_6fea8903ff0aed21f97b9b38211cd8e8.setContent(html_c86207a83a9e5e9e4f2c48fb9bb29eaa);
+            
+        
+
+        marker_e3ed720707c5ea568138ecbc6949599b.bindPopup(popup_6fea8903ff0aed21f97b9b38211cd8e8)
+        ;
+
+        
+    
+    
+            var marker_f10f9b3a451463710f0fcebb9617d5ee = L.marker(
+                [42.9728171, -85.9351257],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_2de64ca69cd2a57cb54b215461cd367d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f10f9b3a451463710f0fcebb9617d5ee.setIcon(icon_2de64ca69cd2a57cb54b215461cd367d);
+        
+    
+        var popup_422e1ac0d4f936b001377ef12fad0d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60e27710eb8706639f16582b6fbf3f87 = $(`<div id="html_60e27710eb8706639f16582b6fbf3f87" style="width: 100.0%; height: 100.0%;">Trail Point, Allendale, MI</div>`)[0];
+                popup_422e1ac0d4f936b001377ef12fad0d37.setContent(html_60e27710eb8706639f16582b6fbf3f87);
+            
+        
+
+        marker_f10f9b3a451463710f0fcebb9617d5ee.bindPopup(popup_422e1ac0d4f936b001377ef12fad0d37)
+        ;
+
+        
+    
+    
+            var marker_5dfd98e1cb394230238c3f8617bbb317 = L.marker(
+                [43.2360043, -86.25247619999999],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_4f48335fa0f40f9a4c57aba8d10394b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5dfd98e1cb394230238c3f8617bbb317.setIcon(icon_4f48335fa0f40f9a4c57aba8d10394b3);
+        
+    
+        var popup_78e1e7c1663cb46b21ad5d984594628a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa6fb1b480a1f255459f2c866bf87c1b = $(`<div id="html_fa6fb1b480a1f255459f2c866bf87c1b" style="width: 100.0%; height: 100.0%;">Unruly Brewing, Muskegon, MI</div>`)[0];
+                popup_78e1e7c1663cb46b21ad5d984594628a.setContent(html_fa6fb1b480a1f255459f2c866bf87c1b);
+            
+        
+
+        marker_5dfd98e1cb394230238c3f8617bbb317.bindPopup(popup_78e1e7c1663cb46b21ad5d984594628a)
+        ;
+
+        
+    
+    
+            var marker_45ee4bfd8f7885e55b28fbc693725414 = L.marker(
+                [42.0131665, -86.5193687],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_395d987c355576067b1d533fd499219e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_45ee4bfd8f7885e55b28fbc693725414.setIcon(icon_395d987c355576067b1d533fd499219e);
+        
+    
+        var popup_f713c8ea6a3fb66c9e3516206ccc0976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da12de516d3fe11994ef5f60040638ab = $(`<div id="html_da12de516d3fe11994ef5f60040638ab" style="width: 100.0%; height: 100.0%;">Watermark, Stevensville, MI</div>`)[0];
+                popup_f713c8ea6a3fb66c9e3516206ccc0976.setContent(html_da12de516d3fe11994ef5f60040638ab);
+            
+        
+
+        marker_45ee4bfd8f7885e55b28fbc693725414.bindPopup(popup_f713c8ea6a3fb66c9e3516206ccc0976)
+        ;
+
+        
+    
+    
+            var marker_8c7732616ead19aa87730680e0e5c15b = L.marker(
+                [42.5372238, -86.2155075],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_600544c0af8529501db05d8a9bb662ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8c7732616ead19aa87730680e0e5c15b.setIcon(icon_600544c0af8529501db05d8a9bb662ee);
+        
+    
+        var popup_3ce0ef767c29c91fce3f0851034aee1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5c8881deec9cf9bf526025e447039fc = $(`<div id="html_e5c8881deec9cf9bf526025e447039fc" style="width: 100.0%; height: 100.0%;">Waypost, Fennville, MI</div>`)[0];
+                popup_3ce0ef767c29c91fce3f0851034aee1c.setContent(html_e5c8881deec9cf9bf526025e447039fc);
+            
+        
+
+        marker_8c7732616ead19aa87730680e0e5c15b.bindPopup(popup_3ce0ef767c29c91fce3f0851034aee1c)
+        ;
+
+        
+    
+    
+            var marker_da06e3ebcb2bdcc86f8fa590934e9229 = L.marker(
+                [42.3145923, -85.5389886],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_22b325ca3132ed83ee8841c44b5af996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_da06e3ebcb2bdcc86f8fa590934e9229.setIcon(icon_22b325ca3132ed83ee8841c44b5af996);
+        
+    
+        var popup_0a862c8656083b12844d6b1bc1d83126 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4833b7882ea32b94e6be8c47852d5c4 = $(`<div id="html_d4833b7882ea32b94e6be8c47852d5c4" style="width: 100.0%; height: 100.0%;">Wax Wings, Kalamazoo, MI</div>`)[0];
+                popup_0a862c8656083b12844d6b1bc1d83126.setContent(html_d4833b7882ea32b94e6be8c47852d5c4);
+            
+        
+
+        marker_da06e3ebcb2bdcc86f8fa590934e9229.bindPopup(popup_0a862c8656083b12844d6b1bc1d83126)
+        ;
+
+        
+    
+    
+            var marker_a5f1b9c91d79b82be664c8f70bde14f3 = L.marker(
+                [42.19124235, -86.25939723],
+                {}
+            ).addTo(feature_group_34a0a17c84c52fe8a93528b63a6c15ed);
+        
+    
+            var icon_b96d818f776def4581308e3d4c2084fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a5f1b9c91d79b82be664c8f70bde14f3.setIcon(icon_b96d818f776def4581308e3d4c2084fd);
+        
+    
+        var popup_b94e2e072ac4c72c260e03addfd4583f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_217b0382259b2870c85769cf6c95dddb = $(`<div id="html_217b0382259b2870c85769cf6c95dddb" style="width: 100.0%; height: 100.0%;">Arclight Brewing, Watervliet, MI</div>`)[0];
+                popup_b94e2e072ac4c72c260e03addfd4583f.setContent(html_217b0382259b2870c85769cf6c95dddb);
+            
+        
+
+        marker_a5f1b9c91d79b82be664c8f70bde14f3.bindPopup(popup_b94e2e072ac4c72c260e03addfd4583f)
+        ;
+
+        
+    
+    
+            feature_group_34a0a17c84c52fe8a93528b63a6c15ed.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var feature_group_a9032a06f0a475dcc590a67a7cc57cc9 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_4c461de7f560f57b93990951245503b4 = L.marker(
+                [42.6073, -83.9293],
+                {}
+            ).addTo(feature_group_a9032a06f0a475dcc590a67a7cc57cc9);
+        
+    
+            var icon_918d4a2f935732e9ce6a358aebeccd05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4c461de7f560f57b93990951245503b4.setIcon(icon_918d4a2f935732e9ce6a358aebeccd05);
+        
+    
+        var popup_b213d7506622aef8479c98004b737fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62c4bb10db54c6662faea23bab8f6af = $(`<div id="html_d62c4bb10db54c6662faea23bab8f6af" style="width: 100.0%; height: 100.0%;">Abberant</div>`)[0];
+                popup_b213d7506622aef8479c98004b737fc0.setContent(html_d62c4bb10db54c6662faea23bab8f6af);
+            
+        
+
+        marker_4c461de7f560f57b93990951245503b4.bindPopup(popup_b213d7506622aef8479c98004b737fc0)
+        ;
+
+        
+    
+    
+            var marker_59f7f3b1bbf6bd84e3deef4847bb4bd5 = L.marker(
+                [42.6076332, -83.9314247],
+                {}
+            ).addTo(feature_group_a9032a06f0a475dcc590a67a7cc57cc9);
+        
+    
+            var icon_8c4ac64cf99c3b3a34b181b582784c0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_59f7f3b1bbf6bd84e3deef4847bb4bd5.setIcon(icon_8c4ac64cf99c3b3a34b181b582784c0c);
+        
+    
+        var popup_9394035231528d6e62553d3ab1e35e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_959dc903041e082ea1a9817c162cdc0e = $(`<div id="html_959dc903041e082ea1a9817c162cdc0e" style="width: 100.0%; height: 100.0%;">Aberrrant Ales Brewery</div>`)[0];
+                popup_9394035231528d6e62553d3ab1e35e43.setContent(html_959dc903041e082ea1a9817c162cdc0e);
+            
+        
+
+        marker_59f7f3b1bbf6bd84e3deef4847bb4bd5.bindPopup(popup_9394035231528d6e62553d3ab1e35e43)
+        ;
+
+        
+    
+    
+            var marker_77ff98bd9abdd06cb4ca99ccf8332f68 = L.marker(
+                [42.2808256, -83.7430378],
+                {}
+            ).addTo(feature_group_a9032a06f0a475dcc590a67a7cc57cc9);
+        
+    
+            var icon_edaa32192387e06eab33f8fbfd1ff229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_77ff98bd9abdd06cb4ca99ccf8332f68.setIcon(icon_edaa32192387e06eab33f8fbfd1ff229);
+        
+    
+        var popup_c72f99e08761071a7eea7f4051c5f410 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ef093f8a80da624871735812f286b7 = $(`<div id="html_84ef093f8a80da624871735812f286b7" style="width: 100.0%; height: 100.0%;">Arbor</div>`)[0];
+                popup_c72f99e08761071a7eea7f4051c5f410.setContent(html_84ef093f8a80da624871735812f286b7);
+            
+        
+
+        marker_77ff98bd9abdd06cb4ca99ccf8332f68.bindPopup(popup_c72f99e08761071a7eea7f4051c5f410)
+        ;
+
+        
+    
+    
+            feature_group_a9032a06f0a475dcc590a67a7cc57cc9.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var feature_group_6f37c26c90b5f0c1b88cd651e03174b6 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_0690c28b9f654c442379b7fa7df874e9 = L.marker(
+                [42.3684, -83.3527],
+                {}
+            ).addTo(feature_group_6f37c26c90b5f0c1b88cd651e03174b6);
+        
+    
+            var icon_c6c5757f3bf21ecf09878c70ef5b2315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_0690c28b9f654c442379b7fa7df874e9.setIcon(icon_c6c5757f3bf21ecf09878c70ef5b2315);
+        
+    
+        var popup_b2e3cf479edb9940711f0f05fbee3790 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cf6761547835979cbcf47ed9de93389 = $(`<div id="html_8cf6761547835979cbcf47ed9de93389" style="width: 100.0%; height: 100.0%;">1 For All</div>`)[0];
+                popup_b2e3cf479edb9940711f0f05fbee3790.setContent(html_8cf6761547835979cbcf47ed9de93389);
+            
+        
+
+        marker_0690c28b9f654c442379b7fa7df874e9.bindPopup(popup_b2e3cf479edb9940711f0f05fbee3790)
+        ;
+
+        
+    
+    
+            var marker_f7effd8282c6b31c419fef52175f07f7 = L.marker(
+                [42.6666, -82.8339],
+                {}
+            ).addTo(feature_group_6f37c26c90b5f0c1b88cd651e03174b6);
+        
+    
+            var icon_da27ba4a9fec59229bd4f54b4bdf6264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_f7effd8282c6b31c419fef52175f07f7.setIcon(icon_da27ba4a9fec59229bd4f54b4bdf6264);
+        
+    
+        var popup_313f1b27ac27ee4cdf14674e7f47faba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe21630b5d98f0b1125dda22caad3d8f = $(`<div id="html_fe21630b5d98f0b1125dda22caad3d8f" style="width: 100.0%; height: 100.0%;">Arctic Circle</div>`)[0];
+                popup_313f1b27ac27ee4cdf14674e7f47faba.setContent(html_fe21630b5d98f0b1125dda22caad3d8f);
+            
+        
+
+        marker_f7effd8282c6b31c419fef52175f07f7.bindPopup(popup_313f1b27ac27ee4cdf14674e7f47faba)
+        ;
+
+        
+    
+    
+            var marker_08ec39fa247b320fd0640332dfa7bd01 = L.marker(
+                [42.4806, -83.4755],
+                {}
+            ).addTo(feature_group_6f37c26c90b5f0c1b88cd651e03174b6);
+        
+    
+            var icon_de55f6f01ee6a448ced4cbf182275806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_08ec39fa247b320fd0640332dfa7bd01.setIcon(icon_de55f6f01ee6a448ced4cbf182275806);
+        
+    
+        var popup_34c3487b2826e4951437a5c4dc334028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0b788a8fb23259293f9fa1cc3e64900 = $(`<div id="html_d0b788a8fb23259293f9fa1cc3e64900" style="width: 100.0%; height: 100.0%;">Ascension</div>`)[0];
+                popup_34c3487b2826e4951437a5c4dc334028.setContent(html_d0b788a8fb23259293f9fa1cc3e64900);
+            
+        
+
+        marker_08ec39fa247b320fd0640332dfa7bd01.bindPopup(popup_34c3487b2826e4951437a5c4dc334028)
+        ;
+
+        
+    
+    
+            feature_group_6f37c26c90b5f0c1b88cd651e03174b6.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var feature_group_ed09fc30fba48fa33a983d458f356c40 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_7ceec7d9deff2af37fd6416ec140cb98 = L.marker(
+                [43.64096989999999, -70.2551637],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_7c23c9643091826dc8455c20b7207082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7ceec7d9deff2af37fd6416ec140cb98.setIcon(icon_7c23c9643091826dc8455c20b7207082);
+        
+    
+        var popup_90cbf5dab49a44519538eee59d6ab2db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d85e08ad1df9a2d25e2ff590f4d741a8 = $(`<div id="html_d85e08ad1df9a2d25e2ff590f4d741a8" style="width: 100.0%; height: 100.0%;">Foulmouthed (closed)</div>`)[0];
+                popup_90cbf5dab49a44519538eee59d6ab2db.setContent(html_d85e08ad1df9a2d25e2ff590f4d741a8);
+            
+        
+
+        marker_7ceec7d9deff2af37fd6416ec140cb98.bindPopup(popup_90cbf5dab49a44519538eee59d6ab2db)
+        ;
+
+        
+    
+    
+            var marker_57d2873022d33abcc5695db42fe390ad = L.marker(
+                [42.6855157, -86.16395650000001],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_bf5d2b0571a9b4e65dbfef858a436aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57d2873022d33abcc5695db42fe390ad.setIcon(icon_bf5d2b0571a9b4e65dbfef858a436aad);
+        
+    
+        var popup_55b6287967813f3ee7c95845bab71c12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae77aa35c33b1047e43943567056f128 = $(`<div id="html_ae77aa35c33b1047e43943567056f128" style="width: 100.0%; height: 100.0%;">Guardian (closed)</div>`)[0];
+                popup_55b6287967813f3ee7c95845bab71c12.setContent(html_ae77aa35c33b1047e43943567056f128);
+            
+        
+
+        marker_57d2873022d33abcc5695db42fe390ad.bindPopup(popup_55b6287967813f3ee7c95845bab71c12)
+        ;
+
+        
+    
+    
+            var marker_44ee2739180914c61e9b15df0c0203fd = L.marker(
+                [42.7935833, -86.1092908],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_eb1738c6da884cbcf24800f909c229b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_44ee2739180914c61e9b15df0c0203fd.setIcon(icon_eb1738c6da884cbcf24800f909c229b2);
+        
+    
+        var popup_3888bc050171a6b750107eb747a8659f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_180ef0bd6d0c0afe4022aa1d2f381782 = $(`<div id="html_180ef0bd6d0c0afe4022aa1d2f381782" style="width: 100.0%; height: 100.0%;">Macatawa Ales (closed)</div>`)[0];
+                popup_3888bc050171a6b750107eb747a8659f.setContent(html_180ef0bd6d0c0afe4022aa1d2f381782);
+            
+        
+
+        marker_44ee2739180914c61e9b15df0c0203fd.bindPopup(popup_3888bc050171a6b750107eb747a8659f)
+        ;
+
+        
+    
+    
+            var marker_1f6f663775ef3ad84d974670af539b93 = L.marker(
+                [42.4385213, -83.4832947],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_bc6e30258fd459fce594b26247995913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1f6f663775ef3ad84d974670af539b93.setIcon(icon_bc6e30258fd459fce594b26247995913);
+        
+    
+        var popup_e81bc88ac5767b03d8faa94a451b24d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66dd7015d52bf196596abb046d7ce00c = $(`<div id="html_66dd7015d52bf196596abb046d7ce00c" style="width: 100.0%; height: 100.0%;">North Center (closed)</div>`)[0];
+                popup_e81bc88ac5767b03d8faa94a451b24d9.setContent(html_66dd7015d52bf196596abb046d7ce00c);
+            
+        
+
+        marker_1f6f663775ef3ad84d974670af539b93.bindPopup(popup_e81bc88ac5767b03d8faa94a451b24d9)
+        ;
+
+        
+    
+    
+            var marker_e18200ac0510c3faf2361df0f932b99f = L.marker(
+                [42.8284296, -83.2708872],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_70b80cf6afbd5f1056c21e4ea4ad7bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e18200ac0510c3faf2361df0f932b99f.setIcon(icon_70b80cf6afbd5f1056c21e4ea4ad7bb0);
+        
+    
+        var popup_7d0735cff42a16e707256336a1119951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f825755ee48cc96adca1469df8b5d0f1 = $(`<div id="html_f825755ee48cc96adca1469df8b5d0f1" style="width: 100.0%; height: 100.0%;">One Drop (closed)</div>`)[0];
+                popup_7d0735cff42a16e707256336a1119951.setContent(html_f825755ee48cc96adca1469df8b5d0f1);
+            
+        
+
+        marker_e18200ac0510c3faf2361df0f932b99f.bindPopup(popup_7d0735cff42a16e707256336a1119951)
+        ;
+
+        
+    
+    
+            var marker_a39674c88217c365c93695162895dad6 = L.marker(
+                [43.1888315, -86.2507936],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_9dcbb54ba4036818e84fd6852983bfae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a39674c88217c365c93695162895dad6.setIcon(icon_9dcbb54ba4036818e84fd6852983bfae);
+        
+    
+        var popup_1541216a0a208385a6c734927ba7e5ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fa52934908b9ee5baa1905ac79f7374 = $(`<div id="html_1fa52934908b9ee5baa1905ac79f7374" style="width: 100.0%; height: 100.0%;">Salty Pecker (closed)</div>`)[0];
+                popup_1541216a0a208385a6c734927ba7e5ed.setContent(html_1fa52934908b9ee5baa1905ac79f7374);
+            
+        
+
+        marker_a39674c88217c365c93695162895dad6.bindPopup(popup_1541216a0a208385a6c734927ba7e5ed)
+        ;
+
+        
+    
+    
+            var marker_c75d13ea9fc46c325f6420ad0274aa6a = L.marker(
+                [42.2739665, -83.779095],
+                {}
+            ).addTo(feature_group_ed09fc30fba48fa33a983d458f356c40);
+        
+    
+            var icon_c5c5e67800e4833f0a3ee1944134c24c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c75d13ea9fc46c325f6420ad0274aa6a.setIcon(icon_c5c5e67800e4833f0a3ee1944134c24c);
+        
+    
+        var popup_39b0c7a60b18c400265a3fb35de0a9ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0af42411dacae1f9884f3bbc387c254f = $(`<div id="html_0af42411dacae1f9884f3bbc387c254f" style="width: 100.0%; height: 100.0%;">Townies (closed)</div>`)[0];
+                popup_39b0c7a60b18c400265a3fb35de0a9ea.setContent(html_0af42411dacae1f9884f3bbc387c254f);
+            
+        
+
+        marker_c75d13ea9fc46c325f6420ad0274aa6a.bindPopup(popup_39b0c7a60b18c400265a3fb35de0a9ea)
+        ;
+
+        
+    
+    
+            feature_group_ed09fc30fba48fa33a983d458f356c40.addTo(map_4e8eff927453c4b68288c3972a1de352);
+        
+    
+            var layer_control_c6f19c255b3b086885bced81775bcfa5_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_31d1c180a6f4b0cc3220525d7029f3cd,
+                },
+                overlays :  {
+                    "2022 New England Tour" : feature_group_6e92e248075572847f4497f8b29d8d9d,
+                    "2023 Michigan West Coast Tour" : feature_group_34a0a17c84c52fe8a93528b63a6c15ed,
+                    "2024 Local Tour" : feature_group_a9032a06f0a475dcc590a67a7cc57cc9,
+                    "Random Ongoing Tour" : feature_group_6f37c26c90b5f0c1b88cd651e03174b6,
+                    "Closed Breweries" : feature_group_ed09fc30fba48fa33a983d458f356c40,
+                },
+            };
+            let layer_control_c6f19c255b3b086885bced81775bcfa5 = L.control.layers(
+                layer_control_c6f19c255b3b086885bced81775bcfa5_layers.base_layers,
+                layer_control_c6f19c255b3b086885bced81775bcfa5_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_4e8eff927453c4b68288c3972a1de352);
+
+        
+</script>
+</html>
