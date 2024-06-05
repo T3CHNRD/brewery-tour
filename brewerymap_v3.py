@@ -1,5 +1,25 @@
 import folium
 
+# Create a map object
+m = folium.Map(location=[44.0, -72.0], zoom_start=5)
+
+# Add custom banner as HTML
+banner_html = """
+<div style="position: fixed; top: 10px; left: 10px; background-color: white; border: 2px solid black; padding: 10px;">
+    <h3>Brewery Information</h3>
+    <p>Total number of breweries: 113 breweries</p>
+    <p>Total number of cities: little over 50 cities</p>
+    <p>Total number of states: 8 states</p>
+</div>
+"""
+m.get_root().html.add_child(folium.Element(banner_html))
+
+# Add brewery markers, closed brewery markers, and layer control as before
+
+# Save the map to an HTML file
+m.save("breweries_mapV3.html")
+
+
 # Dictionary of tours with breweries and their coordinates
 breweries_by_tour = {
     "2022 New England Tour": [
@@ -80,13 +100,51 @@ breweries_by_tour = {
     ],
     "2024 Local Tour": [
         ["Abberant", 42.6073, -83.9293],
-        ["Aberrrant Ales Brewery", 42.6076332, -83.9314247],
-        ["Arbor", 42.2808256, -83.7430378]
+        ["Aberrrant Ales Brewery, Howell, MI", 42.6076332, -83.9314247],
+        ["Arbor, Ann Arbor/Plymouth, MI", 42.2709969, -83.7401339],
+        ["Bearded Lamb, Plymouth, MI", 42.3792447, -83.4613125],
+        ["Block Brewing, Howell, MI", 42.5944315, -83.9340902],
+        ["Blue Skies, Auburn Hills, MI", 42.6335214, -83.2214221],
+        ["Brewery Becker, Brighton, MI", 42.52971429999999, -83.7853463],
+        ["Cadillac Straits, Madison Heights, MI", 42.4953198, -83.1062528],
+        ["Dog and Pony Show, Oak Park, MI", 42.4883927, -83.193612],
+        ["Eternity Brewing, Howell, MI", 42.5853401, -83.8728706],
+        ["Ferndale Project, Ferndale, MI", 42.4506921, -83.1431145],
+        ["Great White Buffalo, Northville, MI", 42.43093280000001, -83.4833769],
+        ["Heights, Farmington, MI", 42.4644795, -83.37632180000001],
+        ["Rustic Leaf, Waterford, MI", 42.6614189, -83.42853099999999],
+        ["Unexpected Brewing, Oak Park, MI", 42.4884504, -83.1903366],
+        ["Urbanrest Brewing, Ferndale, MI", 42.468031, -83.127763]
     ],
     "Random Ongoing Tour": [
-        ["1 For All", 42.3684, -83.3527],
-        ["Arctic Circle", 42.6666, -82.8339],
-        ["Ascension", 42.4806, -83.4755]
+    ["1 For All", 42.3684, -83.3527],
+    ["Arctic Circle, Chesterfield, MI", 42.6960659, -82.79941939999999],
+    ["Ascension", 42.4806, -83.4755],
+    ["Big Lake, Holland, MI", 42.7913184, -86.10790999999999],
+    ["Canton Brew Works, Canton, MI", 42.3486453, -83.46110469999999],
+    ["Copper Hop, St. Claire Shores, MI", 42.4656722, -82.8985046],
+    ["Drafting Table, Wixom, MI", 42.5245111, -83.5379346],
+    ["Farmington Brewing, Farmington, MI", 42.4644795, -83.37632180000001],
+    ["Ferndale Project, Ferndale, MI", 42.4506921, -83.1431145],
+    ["Founders, Grand Rapids, MI", 42.9633599, -85.6680863],
+    ["GravCap, Oxford, MI", 42.8252792, -83.2649536],
+    ["Griffin Claw, Rochester Hills, MI", 42.6471305, -83.17023739999999],
+    ["Home Grown, Oxford, MI", 42.825524, -83.2654333],
+    ["Homes, Ann Arbor, MI", 42.2808256, -83.7430378],
+    ["Jamex, St. Claire Shores, MI", 42.4565087, -82.9124162],
+    ["One Drop, Oxford, MI", 42.8247524, -83.26466239999999],
+    ["Our Brewing, Holland, MI", 42.7901694, -86.1037278],
+    ["Parker's Hilltop, Clarkston, MI", 42.71003229999999, -83.4064624],
+    ["New Holland, Holland, MI", 42.8184203, -86.11422999999999],
+    ["North Center, Northville, MI", 42.4385213, -83.4832947],
+    ["Macatawa Ales, Holland, MI", 42.7935833, -86.1092908],
+    ["Loaded Dice, Troy, MI", 42.5503064, -83.13250959999999],
+    ["Rochester Mills, Auburn Hills, MI", 42.6806946, -83.1313553],
+    ["Supernatural, Livonia, MI", 42.36837, -83.35270969999999],
+    ["Townies, Ann Arbor, MI", 42.2739665, -83.779095],
+    ["Trippelroot, Zeeland, MI", 42.8120882, -86.01469929999999],
+    ["Wolverine State, Ann Arbor, MI", 42.2808256, -83.7430378],
+    ["Macatawa Ales, Holland, MI", 42.7935833, -86.1092908],
     ],
     "Favorite": [
         ["Fiddlehead", 44.3661943, -73.23266079999999],
