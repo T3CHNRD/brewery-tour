@@ -1,7 +1,5 @@
 import folium
 
-
-
 # Dictionary of tours with breweries and their coordinates
 breweries_by_tour = {
     "2022 New England Tour": [
@@ -26,10 +24,15 @@ breweries_by_tour = {
         ["Von Trapp", 44.470915, -72.7351224],
         ["Lunkenheimer", 43.0499113, -76.5626478],
         ["Portland Zoo", 43.6667361, -70.2549307],
-        ["Zero Gravity", 44.4596487, -73.21370569999999]
+        ["Zero Gravity", 44.4596487, -73.21370569999999],
+        ["Foulmouthed", 43.64096989999999, -70.2551637],
+        ["Foundation", 43.6590993, -70.2568189],
+        ["Goodfire", 43.6701814, -70.2559177],
+        ["Lone Pine", 43.6700593, -70.2558802],
+        ["Lunkenheimer", 43.0499113, -76.5626478],
+        ["Maine Beer Company", 43.8394584, -70.12119109999999]
     ],
     "2023 Michigan West Coast Tour": [
-        
         ["Burzurk Brewery, Grand Haven, MI", 43.061029, -86.20656699999999],
         ["Coopersville Brewing, Coopersville, MI", 43.0639112, -85.9347667],
         ["Dark Horse, Marshall, MI", 42.2666327, -84.96368249999999],
@@ -73,9 +76,8 @@ breweries_by_tour = {
         ["Watermark, Stevensville, MI", 42.0131665, -86.5193687],
         ["Waypost, Fennville, MI", 42.5372238, -86.2155075],
         ["Wax Wings, Kalamazoo, MI", 42.3145923, -85.5389886],
-         ["Arclight Brewing, Watervliet, MI", 42.19124235, -86.25939723]
+        ["Arclight Brewing, Watervliet, MI", 42.19124235, -86.25939723]
     ],
-    
     "2024 Local Tour": [
         ["Abberant", 42.6073, -83.9293],
         ["Aberrrant Ales Brewery", 42.6076332, -83.9314247],
@@ -85,6 +87,19 @@ breweries_by_tour = {
         ["1 For All", 42.3684, -83.3527],
         ["Arctic Circle", 42.6666, -82.8339],
         ["Ascension", 42.4806, -83.4755]
+    ],
+    "Favorite": [
+        ["Fiddlehead", 44.3661943, -73.23266079999999],
+        ["Arclight Brewing, Watervliet, MI", 42.19124235, -86.25939723],
+        ["Starving Artist, Ludington, MI", 43.9438614, -86.3394244],
+        ["Eternity Brewing, Howell, MI", 42.5853401, -83.8728706],
+        ["Definitive", 43.7026293, -70.31912190000001],
+        ["Copper Hop, St. Claire Shores, MI", 42.4656722, -82.8985046],
+        ["Transient, Bridgman, MI", 41.9431717, -86.5557264],
+        ["Goodfire", 43.6701814, -70.2559177],
+        ["Waypost, Fennville, MI", 42.5372238, -86.2155075],
+        ["Lone Pine", 43.6700593, -70.2558802],
+        ["Tree House", 42.13659120000001, -72.0123365]
     ]
 }
 
@@ -100,44 +115,40 @@ closed_breweries = [
 ]
 
 # Tour colors
-# Correct color values
 tour_colors = {
     "2022 New England Tour": "green",
-    "2023 Michigan West Coast Tour": "blue",  # Updated to dark blue
+    "2023 Michigan West Coast Tour": "darkblue",
     "2024 Local Tour": "orange",
-    "Random Ongoing Tour": "darkpurple"  # Updated to dark purple
+    "Random Ongoing Tour": "darkpurple",
+    "Favorite": "darkgreen"
 }
 
-# Create a map centered around a central point in the US
-m = folium.Map(location=[43.0, -85.0], zoom_start=5)
+# Create a map object
+m = folium.Map(location=[44.0, -72.0], zoom_start=5)
 
-# Create a map centered around a central point in the US
-m = folium.Map(location=[43.0, -85.0], zoom_start=5)
-
-# Create feature groups for each tour
-tour_layers = {}  # Dictionary to store feature groups for each tour
+# Add brewery markers to the map
 for tour, breweries in breweries_by_tour.items():
-    tour_layers[tour] = folium.FeatureGroup(name=tour)  # Create a feature group for the current tour
-    color = tour_colors[tour]  # Get the color for the current tour
+    feature_group = folium.FeatureGroup(name=tour)
+    color = tour_colors[tour]
     for brewery in breweries:
         name, lat, lon = brewery
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            icon=folium.Icon(color=color.lower(), icon='beer', prefix='fa')  # Use lower case color and check against predefined options
-        ).add_to(tour_layers[tour])  # Add the marker to the feature group for the current tour
-    m.add_child(tour_layers[tour])  # Add the feature group to the map
+            icon=folium.Icon(color=color, icon='beer', prefix='fa')
+        ).add_to(feature_group)
+    feature_group.add_to(m)
 
 # Add closed brewery markers to the map
-closed_layer = folium.FeatureGroup(name="Closed Breweries")  # Create a feature group for closed breweries
+closed_feature_group = folium.FeatureGroup(name="Closed Breweries")
 for brewery in closed_breweries:
     name, lat, lon = brewery
     folium.Marker(
         location=[lat, lon],
         popup=name,
-        icon=folium.Icon(color='red', icon='beer', prefix='fa')
-    ).add_to(closed_layer)  # Add the closed brewery marker to the feature group for closed breweries
-m.add_child(closed_layer)  # Add the feature group for closed breweries to the map
+        icon=folium.Icon(color='red', icon='beer', prefix='fa')  # Red color for closed breweries
+    ).add_to(closed_feature_group)
+closed_feature_group.add_to(m)
 
 # Add layer control to the map
 folium.LayerControl().add_to(m)
