@@ -29,6 +29,7 @@ breweries_by_tour = {
         ["Zero Gravity", 44.4596487, -73.21370569999999]
     ],
     "2023 Michigan West Coast Tour": [
+        
         ["Burzurk Brewery, Grand Haven, MI", 43.061029, -86.20656699999999],
         ["Coopersville Brewing, Coopersville, MI", 43.0639112, -85.9347667],
         ["Dark Horse, Marshall, MI", 42.2666327, -84.96368249999999],
@@ -71,8 +72,10 @@ breweries_by_tour = {
         ["Unruly Brewing, Muskegon, MI", 43.2360043, -86.25247619999999],
         ["Watermark, Stevensville, MI", 42.0131665, -86.5193687],
         ["Waypost, Fennville, MI", 42.5372238, -86.2155075],
-        ["Wax Wings, Kalamazoo, MI", 42.3145923, -85.5389886]
+        ["Wax Wings, Kalamazoo, MI", 42.3145923, -85.5389886],
+         ["Arclight Brewing, Watervliet, MI", 42.19124235, -86.25939723]
     ],
+    
     "2024 Local Tour": [
         ["Abberant", 42.6073, -83.9293],
         ["Aberrrant Ales Brewery", 42.6076332, -83.9314247],
