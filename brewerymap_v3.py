@@ -145,6 +145,7 @@ breweries_by_tour = {
     ["Trippelroot, Zeeland, MI", 42.8120882, -86.01469929999999],
     ["Wolverine State, Ann Arbor, MI", 42.2808256, -83.7430378],
     ["Macatawa Ales, Holland, MI", 42.7935833, -86.1092908],
+    ["stumblebum brewery, Troy, MI", 42.6064, -83.1498],  
     ],
     "Favorite": [
         ["Fiddlehead", 44.3661943, -73.23266079999999],
