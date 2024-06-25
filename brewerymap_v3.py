@@ -145,7 +145,7 @@ breweries_by_tour = {
     ["Trippelroot, Zeeland, MI", 42.8120882, -86.01469929999999],
     ["Wolverine State, Ann Arbor, MI", 42.2808256, -83.7430378],
     ["Macatawa Ales, Holland, MI", 42.7935833, -86.1092908],
-    ["stumblebum brewery, Troy, MI", 42.5483, -83.1823],  
+    ["stumblebum brewery, Troy, MI", 42.3623, -83.0859],  
     ],
     "Favorite": [
         ["Fiddlehead", 44.3661943, -73.23266079999999],
@@ -159,6 +159,7 @@ breweries_by_tour = {
         ["Waypost, Fennville, MI", 42.5372238, -86.2155075],
         ["Lone Pine", 43.6700593, -70.2558802],
         ["Tree House", 42.13659120000001, -72.0123365]
+        ["stumblebum brewery, Troy, MI", 42.3623, -83.0859]
     ]
 }
 
